@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Webpage</title>    
+    <!--15-->>
+    <link rel="icon" type="image/png" href="https://www.magnific.com/free-photos-vectors/tiktok">
+    
+    <!-- Step 12: External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Step 11: Internal CSS -->
+    <style>
+        /* Step 11 demo rules */
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Step 16: Layout Sections with Divs -->
+    <div id="header-section" class="card-box">
+        <!-- Step 14: ID Selector -->
+        <h1 id="main-heading">Aldiyar Sakenov</h1>
+        <!-- Step 1: Headings -->
+        <h2>Second year student of Computer science</h2>
+        <h3>About me</h3>
+        
+        <!-- Step 3: Images -->
+        <img src="/Users/sacenovaldiyar/Downloads/photo_2026-09-08 15.50.25.jpeg" alt="Profile Photo" class="profile-img">
+
+        <!-- Step 10: Inline CSS -->
+        <p style="color: #2c3e50;">
+            Hello!I love to discover new things.For example,Good movies,books,music.But,the most favourite thing is discover new places.
+        </p>
+
+        <!-- Step 7: Emojis -->
+        <p>My mood for today with  emojis are:🥶,😮</p>
+    </div>
+
+    <div id="main-content" class="card-box">
+        <!-- Step 2: Lists -->
+        <section class="section-block">
+            <h2>Hobbies & Favorite Websites</h2>
+            <h3>My hobbies</h3>
+            <ol>
+                <li>Watching movies</li>
+                <li>Playing chess</li>
+                <li>Playing football with my friends</li>
+            </ol>
+
+            <h3>Favorite websites</h3>
+            <ul>
+                <!-- Step 3: Links -->
+                <li><a href="https://tiktok.com" target="_blank" class="highlight">Tiktok</a></li>
+                <li><a href="https://www.youtube.com" target="_blank" class="highlight"> Youtube</a></li>
+            </ul>
+
+            <!-- Step 4: HTML Button -->
+            <button type="button" class="btn">Click</button>
+        </section>
+
+        <!-- Step 5: Schedule Table -->
+        <section class="section-block">
+            <h2>Weekly Class Schedule</h2>
+            <table>
+            
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+
+
+                    <tr>
+                        <td>Web development</td>
+                        <td>Tuesday</td>
+                        <td>14:00 - 15:50</td>
+                    </tr>
+                    <tr>
+                        <td>Discrette mathematics</td>
+                        <td>Wednesday</td>
+                        <td>14:00 - 15:50</td>
+                    </tr>
+                    <tr>
+                        <td>Physical education</td>
+                        <td>Friday</td>
+                        <td>16:00 - 17:30</td>
+                    </tr>
+            </table>
+        </section>
+
+        <!-- Step 8: HTML Form -->
+        <section class="section-block">
+            <h2>Contact & Preferences</h2>
+            <form action="#" method="POST" class="user-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="user@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="favcolor">Favorite Color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#3498db">
+                </div>
+                <button type="submit" class="btn submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <!-- Step 18 & 20: Positioning, Float & Clear -->
+        <section class="section-block">
+            <h2>CSS Layout Experiments</h2>
+
+            <h3>Step 18: Positioning Demonstrations</h3>
+            <div class="pos-box static-box">Static Position</div>
+            <div class="pos-box relative-box">Relative Position (Shifted)</div>
+            <div class="pos-container">
+                <div class="pos-box absolute-box">Absolute Position</div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Step 20: Float and Clear</h3>
+            <div class="float-container">
+                <div class="float-box float-left">Float Left Box</div>
+                <div class="float-box float-right">Float Right Box</div>
+                <div class="clear-fix">Cleared Element (Appears underneath both floated boxes)</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Step 16: Footer Div -->
+    <div id="footer-section" class="card-box">
+        <p>&copy; 2026 Student Portfolio | Assignment #1</p>
+    </div>
+
+</body>
+</html>
