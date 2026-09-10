@@ -14,11 +14,15 @@ I created an html file, where I used boilerplates.Then titled as My first webpag
 Added headings with my name, course and "about me".Also,added a paragraph ,where I gave brief description of my interests.
 Used ordered list with my hobbies and unordered one for my favourite websites and they are clickable so you will get to the site directly.Below them ,there are button(without the function yet).
 Also,you could have seen my photo on the website.
+
 2-part
 I created a table with simple weekly class schedule.
 In "About me" block I added how I felt today during completing this assignment with 3 emojis.
 Next,I created a mini form with a basic fields such as, name,email,color with appropriate type of data.
+
 3-part
 Applied inline,internal,external css.I used element selectors, class selectors,id selectors to style text and backgrounds.
+
+
 4-part
 Added a favicon,div sections, applied box model properties (margin, padding, border), sizing units (px, %, em, rem), positioning, and float/clear elements.
