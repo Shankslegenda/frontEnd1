@@ -5,8 +5,6 @@ Sakenov Aldiyar IT-2501
 1.2
 <img width="1362" height="476" alt="image" src="https://github.com/user-attachments/assets/e75b85bc-203d-4044-a3bb-1bc13f1e9edf" />
 1.3
-<img width="1362" height="808" alt="image" src="https://github.com/user-attachments/assets/72318da7-597b-4afd-94d8-277b8ad540b4" />
-1.4
 <img width="1362" height="720" alt="image" src="https://github.com/user-attachments/assets/4824df9a-045f-4123-98f5-f98f58193089" />
 
 favicon check:<img width="1465" height="934" alt="Снимок экрана 2026-09-11 в 04 00 50" src="https://github.com/user-attachments/assets/75a38b68-23ff-42a6-9420-20779e7423bd" />
