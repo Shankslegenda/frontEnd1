@@ -3,81 +3,67 @@ body {
     margin: 10px; 
     padding: 0;
 }
-
 h1 {
     font-size: 2rem; 
     margin-bottom: 0.5em;
 }
-
 h2 {
     font-size: 1.5rem;
     color: darkgreen;
 }
-
 h3 {
     font-size: 1.2rem;
     color: darkblue;
 }
-
 p {
     font-size: 1rem;
 }
-
 #main-heading {
     color: navy;
 }
-
 .highlight {
     background-color: yellow;
     font-weight: bold;
 }
-
 #header-section, #main-content, #footer-section {
     background-color: white;
     border: 2px solid black; 
     margin: 15px 0;  
     padding: 15px;         
 }
-
 .profile-img {
     width: 120px;
     height: 120px;
 }
-
 .layout-table {
     width: 100%; 
 }
-
 .box {
     padding: 8px;
     color: white;
     margin-bottom: 5px;
 }
-
 .static-box {
     background-color: gray;
     position: static;
 }
-
 .relative-box {
     background-color: orange;
     position: relative;
     top: 5px;
     left: 15px;
 }
-
 .pos-container {
     position: relative;
     height: 50px;
     background-color: lightgray;
 }
-
 .absolute-box {
     background-color: purple;
     position: absolute;
     bottom: 5px;
+    right: 5px;
 }
-
 .float-container {
     background-color: #eee;
     padding: 10px;
