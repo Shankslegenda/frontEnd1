@@ -26,3 +26,10 @@ Applied inline,internal,external css.I used element selectors, class selectors,i
 
 4-part
 Added a favicon,div sections, applied box model properties (margin, padding, border), sizing units (px, %, em, rem), positioning, and float/clear elements.
+
+
+
+
+
+
+https://shankslegenda.github.io/frontEnd1/
