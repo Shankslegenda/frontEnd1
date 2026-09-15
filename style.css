@@ -76,35 +76,4 @@ p {
     background-color: purple;
     position: absolute;
     bottom: 5px;
-    right: 5px;
-}
 
-.float-container {
-    background-color: #eee;
-    padding: 10px;
-}
-
-.float-box {
-    width: 45%;
-    padding: 10px;
-    color: white;
-}
-
-.float-left {
-    float: left;
-    background-color: teal;
-}
-
-.float-right {
-    float: right;
-    background-color: crimson;
-}
-
-.clear-fix {
-    clear: both;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin-top: 10px;
-    text-align: center;
-}
